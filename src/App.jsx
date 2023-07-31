@@ -60,7 +60,7 @@ class App extends Component {
         />
         {this.render_remind()}
         <button
-          className="btn btn-outline-success mb-2"
+          className="btn btn-outline-success mt-2 mb-2"
           onClick={() => this.props.adding(this.state.text, this.state.date)}
         >
           Add reminder
